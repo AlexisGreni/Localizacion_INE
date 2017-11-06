@@ -111,7 +111,7 @@ function mostrarUbicacion(position) {
 	
 	var div = document.getElementById("ubicacion");
 	div.innerHTML = "Timestamp: " + times + "<br>Latitud: " + latitud + "<br>Longitud: " + longitud + "<br>Altura en metros: " + altitud + "<br>Exactitud: " + exactitud 
-	+ "<br>Modulo mas cercano: " + modulo_cercano + "Distancia al mismo" + distancia_Cercana;}	
+	+ "<br>Modulo mas cercano: " + modulo_cercano + "<br>Distancia al mismo" + distancia_Cercana;}	
 function refrescarUbicacion() {	
 	navigator.geolocation.watchPosition(mostrarUbicacion);}	
 </script>
